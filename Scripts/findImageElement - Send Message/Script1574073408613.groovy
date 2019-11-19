@@ -32,10 +32,13 @@ Mobile.setText(findTestObject('txt_SMS_Content'), 'test', 0)
 'Finds the mobile element that is recognized by the given image.'
 WebElement element = Mobile.findImageElement('Screenshots/send.png')
 
-Dimension elementSize = element.getSize();
+int buttonWidth = element.getSize().getWidth()
 
+int buttonHeight = element.getSize().getHeight()
 
-println "Element found: " + elementSize
+System.out.println(('Button Width: ' + buttonWidth) + ' pixels')
+
+System.out.println(('Button Height: ' + buttonHeight) + ' pixels')
 
 Mobile.tap(findTestObject('btn_Send'), 0)
 
