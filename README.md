@@ -74,8 +74,12 @@ Return: The first found WebElement that is recognized by the given image.
 
 - Sample:
 ```java
-WebElement element = Mobile.findImageElement("/Users/myaccount/Desktop/image.png")
-println "Element found at: (" + element.getPosition().x + ", " + element.getPosition().y + ")"
+WebElement element = Mobile.findImageElement('/Users/myaccount/Desktop/send.png')
+int buttonWidth = element.getSize().getWidth()
+int buttonHeight = element.getSize().getHeight()
+
+System.out.println(('Button Width: ' + buttonWidth) + ' pixels')
+System.out.println(('Button Height: ' + buttonHeight) + ' pixels')
 ```
 
 #### 4. findImageElements (Find Image Elements)
