@@ -22,7 +22,7 @@ npm install -g appium
 npm install -g opencv4nodejs
 ```
 
-If installing `opencv4nodejs` resolves in an error around 90% mark, please refer to this [issue](https://github.com/justadudewhohacks/opencv4nodejs/issues/401)
+If installing `opencv4nodejs` resolves fails around 90% mark and it has something to do with Tesseract, please refer to this [issue](https://github.com/justadudewhohacks/opencv4nodejs/issues/401) and try to unlink `tesseract`.
 
 #### Linux
 1. Download and install CMake: https://cmake.org/download/
