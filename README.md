@@ -22,6 +22,8 @@ npm install -g appium
 npm install -g opencv4nodejs
 ```
 
+If installing `opencv4nodejs` resolves in an error around 90% mark, please refer to this [issue](https://github.com/justadudewhohacks/opencv4nodejs/issues/401)
+
 #### Linux
 1. Download and install CMake: https://cmake.org/download/
 2. Export CMake binary folder to PATH of Environment Variables
